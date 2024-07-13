@@ -4,10 +4,5 @@
 
 The former [pull request](https://github.com/PiwikPRO/analytics-template-for-gtm/pull/1) is closed and instead I contributed directly to a new template version that is [currently in development](https://github.com/PiwikPRO/analytics-template-for-gtm/tree/development) and will hopefully get submitted and published in the *Community Template Gallery* soon. 
 
-## Why this custom version?
-The reason why this fork still exists is currently just a single feature: during development we added an option to **"Follow Consent Mode"** when configuring privacy settings. The goal of this option is to be able to run just one single tag and either use cookies if there is consent granted for `analytics_storage` when firing... or fire the tag without cookies if no consent was given and documented as a *Google Consent Mode* setting. 
-
-That option - as handy as it is - was complicated to use and confused testers. So we decided to kill the feature for the official template from Piwik PRO and I updated this fork to include the last version that still has this feature. 
-
-## Should I use it?
-It is up to you to decide but it is always a good idea to use templates from the gallery instead of importing local templates. So if you do not need the feature described above, there is simply no reason why this version should be used instead of the regular one (from the [Community Template Gallery](https://tagmanager.google.com/gallery/#/owners/PiwikPRO/templates/analytics-template-for-gtm)).  
+## Should I continue to use the fork?
+My custom version used to offer some features like (old) ecom hit types. But meanwhile there is even a new ecom version available that is fully integrated into the new official template. So if you do not (for whatever reason) need the old ecom requests, there is simply no reason why this version should be used instead of the regular one (from the [Community Template Gallery](https://tagmanager.google.com/gallery/#/owners/PiwikPRO/templates/analytics-template-for-gtm)).  
